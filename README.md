@@ -6,6 +6,8 @@
 ## Project Objective
 The objective of the project is to explore the patterns in the data and to understand how casual riders and annual members use Cyclistic bikes differently  in order to maximize the number of annual memberships. 
 
+## Data Source -https://divvy-tripdata.s3.amazonaws.com/index.html
+
 ### Tech Stack
 * R 
 * Tableau
