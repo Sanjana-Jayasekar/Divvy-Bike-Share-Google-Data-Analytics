@@ -101,7 +101,7 @@ summary(all_trips$ride_length)
 aggregate(all_trips$ride_length ~ all_trips$member_casual, FUN = mean)
 aggregate(all_trips$ride_length ~ all_trips$member_casual, FUN = median)
 aggregate(all_trips$ride_length ~ all_trips$member_casual, FUN = max)
-aggregate(all_trips$ride_length ~ all_tripsmember_casual, FUN = min)
+aggregate(all_trips$ride_length ~ all_trips$member_casual, FUN = min)
 
 
 write.csv(Agg_data,"C:/Users/sanja/Desktop/Bike_Share/Agg_data.csv", row.names = FALSE)
